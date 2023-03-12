@@ -11,7 +11,7 @@ public class OneDArrayV4 {
     public static void main(String[] args) {
 
         // Initialization, Declaration and Adding Elements in one step
-        int array[] = {10, 20, 30, 40};
+        int[] array = {10, 20, 30, 40};
 
         // Accessing elements in an array
         for (int i = 0; i < array.length; i++) {

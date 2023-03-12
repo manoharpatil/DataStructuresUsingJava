@@ -2,19 +2,22 @@ package com.example.arrays;
 
 /***
  * Challenge: Remove Even Integers from an Array
- *
+ * <p>
  * Problem Statement: In this problem, you have to implement the int [] removeEven(int[] arr) method, which removes
  *                    all the even elements from the array and returns updated array.
- *
+ * <p>
  * Method Prototype: int[] removeEven(int[] arr);
- *
+ * <p>
  * Input: An array with integers.
- *
+ * <p>
  * Output: An array with only odd integers.
- *
+ * <p>
  * Sample Input: arr = {1, 2, 4, 5, 10, 6, 3}
- *
+ * <p>
  * Sample Output: arr = {1, 5, 3}
+ * <p>
+ * Time Complexity: Since the entire array has to be iterated over, this solution is in O(n).
+ *
  */
 
 public class CheckRemoveEven {
@@ -41,7 +44,7 @@ public class CheckRemoveEven {
         return oddArray;
     } // End of removeEven
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int size = 10;
         int[] arr = new int[size]; // Declaration and instantiation
@@ -58,7 +61,7 @@ public class CheckRemoveEven {
 
         System.out.print("After removing Even Numbers: ");
         for (int i = 0; i < newArr.length; i++) {
-            System.out.print(newArr[i] + " "); // Prinitng array
+            System.out.print(newArr[i] + " "); // Printing array
         }
     }
 }
